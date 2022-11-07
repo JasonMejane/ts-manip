@@ -1,0 +1,52 @@
+{
+	"name": "ts-manip",
+	"version": "1.0.0",
+	"description": "Manipulate arrays and objects efficiently",
+	"main": "index.js",
+	"types": "index.d.ts",
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"scripts": {
+		"build": "tsc -p tsconfig.build.json",
+		"build-local": "ts-node ./src/index.ts",
+		"build-publish": "tsc -p tsconfig.publish.json",
+		"test": "karma start karma.conf.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JasonMejane/ts-manip.git"
+	},
+	"bugs": {
+		"url": "https://github.com/JasonMejane/ts-manip/issues"
+	},
+	"homepage": "https://github.com/JasonMejane/ts-manip#readme",
+	"keywords": [
+		"manip",
+		"manipulate",
+		"array",
+		"object",
+		"operation",
+		"stdlib",
+		"util"
+	],
+	"author": "Jason Mejane",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/jasmine": "4.3.0",
+		"@types/node": "18.11.9",
+		"jasmine": "4.5.0",
+		"jasmine-core": "4.5.0",
+		"karma": "6.4.1",
+		"karma-coverage": "2.2.0",
+		"karma-chrome-launcher": "3.1.1",
+		"karma-firefox-launcher": "2.1.2",
+		"karma-coverage-istanbul-reporter": "3.0.3",
+		"karma-jasmine": "5.1.0",
+		"karma-typescript": "5.5.3",
+		"ts-node": "10.9.1",
+		"tslint": "6.1.3",
+		"typescript": "4.8.4"
+	}
+}
