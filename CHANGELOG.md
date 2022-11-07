@@ -21,3 +21,7 @@ Available functions
 - **numericDiff** (object)
 - **reduce** (array)
 - **splitIntoMultiple** (array)
+
+## [1.0.1] - 2022-11-06
+
+Fix npm package

@@ -1,13 +1,8 @@
 {
 	"name": "ts-manip",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Manipulate arrays and objects efficiently",
 	"main": "index.js",
-	"types": "index.d.ts",
-	"files": [
-		"index.js",
-		"index.d.ts"
-	],
 	"scripts": {
 		"build": "tsc -p tsconfig.build.json",
 		"build-local": "ts-node ./src/index.ts",
