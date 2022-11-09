@@ -57,8 +57,10 @@ import * as manip from 'ts-manip';
 - **filteredMap:** Map an array to another, thanks to a tranform function, filtering the elements to keep thanks to a predicate function
 - **findFirst:** Find the first matching element in an array
 - **findLast:** Find the last matching element in an array
+- **flattenDeep:** Flatten deeply an array (or up to a given depth), and can transform elements thanks to an optional tranform function
 - **forEach:** Iterates over elements of an array and invoke a function for each element
 - **forEachAsync:** Iterates over elements of an array and invoke an asynchronous function for each element
+- **groupBy:** Group elements of an array, thanks to an iteratee
 - **map:** Map an array to another, thanks to a tranform function
 - **numericDiff:** Return the differences of numeric values between 2 objects of the same type
 - **reduce:** Reduce an array to a new single value, thanks to a tranform function.

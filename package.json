@@ -1,6 +1,6 @@
 {
 	"name": "ts-manip",
-	"version": "1.0.2",
+	"version": "1.1.0",
 	"description": "Manipulate arrays and objects efficiently",
 	"main": "index.js",
 	"types": "index.d.ts",

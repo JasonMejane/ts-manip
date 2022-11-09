@@ -25,3 +25,12 @@ Available functions
 ## [1.0.1] - 2022-11-06
 
 Fix npm package
+
+## [1.0.2] - 2022-11-06
+
+Fix package types
+
+## [1.1.0] - 2022-11-07
+
+Add **flattenDeep** (array)
+Add **groupBy** (array)

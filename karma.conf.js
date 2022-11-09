@@ -17,7 +17,9 @@ module.exports = function (config) {
 		],
 
 		// list of files / patterns to exclude
-		exclude: [],
+		exclude: [
+			'src/index.ts'
+		],
 
 		plugins: ['karma-jasmine', 'karma-chrome-launcher', 'karma-firefox-launcher', 'karma-coverage', 'karma-typescript'],
 
