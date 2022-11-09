@@ -8,7 +8,7 @@
  */
  export function flattenDeep(
 	array: any[],
-	maxDepth: number = Infinity,
+	maxDepth = Infinity,
 	transform: (element: any, index: number) => any = (element) => { return element; }
 ): any[] {
 	const length = array?.length - 1 ?? -1;
