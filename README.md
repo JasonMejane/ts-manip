@@ -44,11 +44,19 @@ In terminal, run:
 npm i ts-manip
 ```
 
+## Usage
 
 ### Import
 
 ```typescript
 import * as manip from 'ts-manip';
+```
+
+Methods can also be imported separatly:
+```typescript
+import { flattenDeep } from 'ts-manip/flattenDeep';
+OR
+import { flattenDeep } from 'ts-manip';
 ```
 
 ### Available functions
